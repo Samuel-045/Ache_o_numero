@@ -23,6 +23,8 @@ public static void main (String args[]) {
 	    if(boa[resp]==1) {
 	    	acrt++;
 	    	chanc--;
+	    }else if(boa[resp]==-1) {
+	    	p--;
 	    }else {
 	    	err++;
 	    	chanc--;
@@ -33,11 +35,15 @@ public static void main (String args[]) {
 	 				+ "PLACAR: \n"
 	 				+ ""+acrt+" ACERTO(S)\n"
 	 				+ ""+err+"  ERRO(S)\n");
+	 		boa[resp]=-1;
 	 		if(chanc!=0) {
 	 			System.out.println("VOCÊ AINDA TEM "+chanc+" CHANCE(S)\n");
 	 		}else {
 	 			System.out.println("Suas chances acabaram");
 	 		}
+	 		
+	 	}else if(boa[resp]==-1) {
+	 		System.out.println("Essa posição já foi escolhida antes. Escolha outra posição\n");
 	 		
 	 	}else {
 	 		System.out.print("Que pena, você errou :(\n"
