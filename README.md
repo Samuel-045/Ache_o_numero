@@ -11,6 +11,11 @@ Após a escolha de determinada posição, é retornado ao usuário se ele acerto
 como posição já escolhida, afim de não contabilizar nos resultados.
 
 No final do jogo, mostrado uma mensagem ao usuário, que vai ser diferente em cada desempenho (derrota, empate e vitória).
+<div align="center">
+   <img src="https://github.com/Samuel-045/Ache_o_numero/assets/95144250/8c972e85-86c5-46a6-a8fe-0af9e3305012"/>
+   
+   >Demonstração do código rodando.
+</div>
 
   <h2>:file_folder: Como ter acesso ao projeto</h2>
   Basta baixar o arquivo em sua máquina, ter o java (da versão 14 em diante para rodar sem problemas) e alguma IDE instalada.
